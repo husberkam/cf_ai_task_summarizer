@@ -20,9 +20,14 @@ The app lets a user paste a list of tasks into a text area. The Worker then call
 - Workers AI – Llama 3.3 text model
 - Workers KV for simple memory/state
 
-## Running locally
+## Running locally (optional)
 
-1. Install the Cloudflare CLI:
+(These steps are not required for the internship assignment)
 
-   ```bash
-   npm install -g wrangler
+1. Install Wrangler CLI  
+2. Run `wrangler login`  
+3. Create a KV namespace: `wrangler kv namespace create TASKS`  
+4. Put namespace into `wrangler.toml`  
+5. Run the dev server: `wrangler dev`
+
+You do **not** need to deploy or run the code to submit this assignment.
