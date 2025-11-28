@@ -1,0 +1,10 @@
+name = "cf_ai_task_summarizer"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "TASKS"
+id = "KV_NAMESPACE_ID"
